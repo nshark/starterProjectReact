@@ -1,0 +1,17 @@
+.headerCSS{
+    border: red;
+    color: cyan;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .spinnyText {
+        animation: spinnyText infinite 20s linear;
+    }
+}
+@keyframes spinnyText {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
