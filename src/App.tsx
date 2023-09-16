@@ -5,6 +5,7 @@ import LandingPage from "./components/Landing Page";
 import CSSExample from "./components/CSS example";
 import TvShows from "./components/tvShows";
 import Sentance from './components/sentance';
+import Shoppinglistandform from "./components/shoppinglistandform";
 function App() {
   return (
     <div className="App-header">
@@ -14,6 +15,7 @@ function App() {
             <Route path="/css-example" element={<CSSExample/>}/>
             <Route path="/tv-shows" element={<TvShows/>}/>
             <Route path="/sentance" element={<Sentance />}/>
+            <Route path="/shop" element={<Shoppinglistandform/>}/>
         </Routes>
       </BrowserRouter>
     </div>
